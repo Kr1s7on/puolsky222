@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Kriston Jomari - Applied AI Student',
     description: 'My personal website.',
-    faviconPath: '/src/assets/code.png?v=2',
+    faviconPath: '../assets/code.png?v=2',
   },
   pdf: {
     footer:
