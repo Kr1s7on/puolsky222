@@ -11,10 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+    title: 'Kriston Jomari - Applied AI Student',
+    description: 'My personal website.',
+    faviconPath: '/src/assets/code.png?v=2',
   },
   pdf: {
     footer:

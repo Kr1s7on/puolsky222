@@ -164,3 +164,116 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const dart = createSkillFactory({
+  name: 'Dart',
+  icon: 'simple-icons:dart',
+  iconColor: '#0175C2',
+  url: 'https://dart.dev/',
+});
+
+export const jetpackCompose = createSkillFactory({
+  name: 'Jetpack Compose',
+  icon: 'simple-icons:jetpackcompose',
+  iconColor: '#6200EE',
+  url: 'https://developer.android.com/jetpack/compose',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
+});
+
+export const canva = createSkillFactory({
+  name: 'Canva',
+  icon: 'simple-icons:canva',
+  iconColor: '#00C4CC',
+  url: 'https://www.canva.com/',
+});
+
+export const instagram = createSkillFactory({
+  name: 'Instagram',
+  icon: 'simple-icons:instagram',
+  iconColor: '#E4405F',
+  url: 'https://www.instagram.com/',
+});
+
+// for packet tracer
+export const packetTracer = createSkillFactory({
+  name: 'Packet Tracer',
+  icon: 'simple-icons:cisco',
+  iconColor: '#1BA0D7',
+  url: 'https://www.netacad.com/courses/packet-tracer',
+});
+
+export const netcat = createSkillFactory({
+  name: 'Netcat',
+  icon: 'simple-icons:nec',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Netcat',
+});
+
+export const debate = createSkillFactory({
+  name: 'Debate',
+  icon: 'simple-icons:dbt',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Debate',
+});
+
+export const html = createSkillFactory({
+  name: 'HTML',
+  icon: 'simple-icons:html5',
+  iconColor: '#E34F26',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+});
+
+export const css = createSkillFactory({
+  name: 'CSS',
+  icon: 'simple-icons:css3',
+  iconColor: '#1572B6',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+});
+
+export const javascript = createSkillFactory({
+  name: 'JavaScript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#F7DF1E',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+});
+
+export const sql = createSkillFactory({
+  name: 'SQL',
+  icon: 'simple-icons:postgresql',
+  iconColor: '#4169E1',
+  url: 'https://en.wikipedia.org/wiki/SQL',
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'simple-icons:linux',
+  iconColor: '#FCC624',
+  url: 'https://www.linux.org/',
+});
+
+export const webDesign = createSkillFactory({
+  name: 'Web Design',
+  icon: 'simple-icons:peakdesign',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Web_design',
+});
+
+export const networking = createSkillFactory({
+  name: 'Networking',
+  icon: 'simple-icons:netto',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Networking',
+});
+
+export const powerbi = createSkillFactory({
+  name: 'PowerBI',
+  icon: 'simple-icons:powerbi',
+  iconColor: '#F2C811',
+  url: 'https://powerbi.microsoft.com/',
+});

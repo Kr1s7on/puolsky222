@@ -23,7 +23,7 @@ const portfolioSectionData = {
     title: 'Projects',
     slug: 'projects',
     icon: 'fa6-solid:rocket',
-    visible: true,
+    visible: false,
     screenshots: {
       title: 'Screenshots',
       icon: 'fa6-solid:images',
@@ -31,14 +31,12 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Golden Bulls',
+      name: 'Pyventory',
       image: import('@/assets/portfolio/project-1.jpeg'),
       dates: [new Date('2020-03'), null],
       details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'My role', value: ['Programmer'] },
+        { label: 'Category', value: ['Terminal Utility', 'Open-source'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
