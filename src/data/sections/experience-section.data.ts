@@ -65,7 +65,7 @@ const experienceSectionData = {
     {
       role: 'Member',
       company: 'NYP Current Affairs and Debating Club',
-      image: import('@/assets/logos/nyp-cadc.png'),
+      image: import('@/assets/logos/cadc-logo.png'),
       dates: [new Date('2023-05'), null],
       description: `
       Tournaments:
@@ -77,7 +77,7 @@ const experienceSectionData = {
         title: 'Focus',
         tags: [debate()],
       },
-      links: [website({ url: 'https://www.instagram.com/nyp.debate/' })],
+      links: [instagram({ url: 'https://www.instagram.com/nyp.debate/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

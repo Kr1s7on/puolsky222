@@ -61,7 +61,7 @@ const portfolioSectionData = {
     },
     {
       name: 'Visual Analytics Project',
-      image: import('@/assets/portfolio/panalytics.png'),
+      image: import('@/assets/portfolio/panalytics2.png'),
       dates: [new Date('2024-12'), new Date('2025-02')],
       details: [
         { label: 'Team size', value: '4 people' },
