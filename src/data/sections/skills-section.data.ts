@@ -25,14 +25,14 @@ const skillsSectionData = {
       title: 'I already know',
       skills: [
         webDesign({
-          level: 5,
+          level: 4,
         }),
         linux({
-          level: 4,
+          level: 3,
           description: 'Experienced with Linux system administration and shell scripting.',
         }),
         python({
-          level: 4,
+          level: 3,
         }),
         javascript({
           level: 2,

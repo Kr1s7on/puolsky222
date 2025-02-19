@@ -15,7 +15,8 @@ const educationSectionData = {
       institution: 'Nanyang Polytechnic',
       image: import('@/assets/logos/nyp-logo.jpeg'),
       dates: [new Date('2024.04'), new Date('2027.05')],
-      description: 'Currently enrolled in the diploma.',
+      description:
+        'Currently enrolled in the diploma.\nAccolades:\n- NYP Scholarship (PFP-to-Diploma)\n- Top 6 - NYP InfoSec December CTF 2024 (Ranked 1st for Year 1 Students)\n- Top 10 - NYP InfoSec June CTF 2024\n- Top 10 - DSTA Brainhack: SeeTrue 2024 ',
       links: [
         website({
           url: 'https://www.nyp.edu.sg/student/study/schools/information-technology/diploma-applied-AI-analytics',
@@ -27,7 +28,8 @@ const educationSectionData = {
       institution: 'Nanyang Polytechnic',
       image: import('@/assets/logos/nyp-logo.jpeg'),
       dates: [new Date('2023.04'), new Date('2024.03')],
-      description: 'Foundation Year. Completed the year with a GPA of 3.66/4.',
+      description:
+        'Foundation Year. Completed the year with a GPA of 3.66/4.\nAccolades:\n- Top 6 (Tied) - National AI Student Challenge 2024: AWS\n- 1st Place - PFP Augmented Reality Competition\n- 2nd Place - CADC Policy Forum',
       links: [website({ url: 'https://www.nyp.edu.sg/student/study/polytechnic-foundation-programme' })],
     },
     {
@@ -35,8 +37,9 @@ const educationSectionData = {
       institution: 'Presbyterian High School',
       image: import('@/assets/logos/pres-logo.jpg'),
       dates: [new Date('2019.01'), new Date('2022.12')],
-      description: 'Topped the cohort in the N(A) Level Examinations. Raw 5, Nett 3.',
-      links: [website({ url: 'https://www.ajc.edu.sg/' })],
+      description:
+        'Topped the cohort in the N(A) Level Examinations. Raw 5, Nett 3.\nAccolades:\n- Received multiple Book Prize and Edusave awards amounting to $1000+.',
+      links: [website({ url: 'https://www.presbyterian.moe.edu.sg/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;

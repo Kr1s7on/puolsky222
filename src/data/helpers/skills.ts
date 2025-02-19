@@ -277,3 +277,31 @@ export const powerbi = createSkillFactory({
   iconColor: '#F2C811',
   url: 'https://powerbi.microsoft.com/',
 });
+
+export const excel = createSkillFactory({
+  name: 'Excel',
+  icon: 'simple-icons:microsoftexcel',
+  iconColor: '#217346',
+  url: 'https://www.microsoft.com/en-sg/microsoft-365/excel',
+});
+
+export const scratch = createSkillFactory({
+  name: 'Scratch',
+  icon: 'simple-icons:scratch',
+  iconColor: '#4D97FF',
+  url: 'https://scratch.mit.edu/',
+});
+
+export const bootstrap = createSkillFactory({
+  name: 'Bootstrap',
+  icon: 'simple-icons:bootstrap',
+  iconColor: '#7952B3',
+  url: 'https://getbootstrap.com/',
+});
+
+export const pixilart = createSkillFactory({
+  name: 'Pixilart',
+  icon: 'simple-icons:pix',
+  iconColor: '#000000',
+  url: 'https://www.pixilart.com/',
+});
