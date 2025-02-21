@@ -146,7 +146,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/cc4.png'), alt: 'Fourth screenshot' },
       ],
       description:
-        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies. to roughly 100 elderly.",
+        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies to roughly 100 elderly.",
       tagsList: {
         title: 'Donated Items',
         tags: [cnycookies()],
