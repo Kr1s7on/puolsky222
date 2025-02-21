@@ -305,3 +305,10 @@ export const pixilart = createSkillFactory({
   iconColor: '#000000',
   url: 'https://www.pixilart.com/',
 });
+
+export const cnycookies = createSkillFactory({
+  name: 'CNY Cookies',
+  icon: 'simple-icons:coil',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Chinese_New_Year',
+});

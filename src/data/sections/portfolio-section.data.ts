@@ -1,7 +1,18 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { demo, github, mockups, website } from '../helpers/links';
-import { python, html, css, javascript, scratch, bootstrap, powerbi, excel, pixilart } from '../helpers/skills';
+import {
+  python,
+  html,
+  css,
+  javascript,
+  scratch,
+  bootstrap,
+  powerbi,
+  excel,
+  pixilart,
+  cnycookies,
+} from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -116,6 +127,31 @@ const portfolioSectionData = {
         demo({ url: 'https://scratch.mit.edu/projects/1126734393' }),
         github({ url: 'https://github.com/Kr1s7on/Lion-Quest' }),
       ],
+    },
+    {
+      name: "Turto's Project",
+      image: import('@/assets/portfolio/cc-logo.png'),
+      dates: [new Date('2024-11'), new Date('2025-02')],
+      details: [
+        { label: 'Team size', value: '12 people' },
+        { label: 'My role', value: ['Publicity', 'Logistics'] },
+        { label: 'Beneficiaries', value: 'Cheng San Senior Resident Center' },
+        { label: 'Category', value: ['Service', 'Volunteering'] },
+      ],
+      pdfDetails: [],
+      screenshots: [
+        { src: import('@/assets/portfolio/cc1.png'), alt: 'First screenshot' },
+        { src: import('@/assets/portfolio/cc2.png'), alt: 'Second screenshot' },
+        { src: import('@/assets/portfolio/cc3.png'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/cc4.png'), alt: 'Fourth screenshot' },
+      ],
+      description:
+        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies. to roughly 100 elderly.",
+      tagsList: {
+        title: 'Donated Items',
+        tags: [cnycookies()],
+      },
+      links: [],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
