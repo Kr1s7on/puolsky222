@@ -162,3 +162,8 @@ export const repository = createLinkFactory({
   name: 'Repository',
   icon: 'fa6-solid:code-branch',
 });
+
+export const writeup = createLinkFactory({
+  name: 'Write-up',
+  icon: 'fa6-solid:pencil',
+});

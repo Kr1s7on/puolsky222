@@ -1,6 +1,6 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
+import { demo, github, writeup } from '../helpers/links';
 import {
   python,
   html,
@@ -44,12 +44,12 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/power4.png'), alt: 'Fourth screenshot' },
       ],
       description:
-        'This project examines consumer preferences for locally-produced food and their role in food sustainability in Singapore. Using Power BI and Excel, we analyzed data to understand trends, challenges, and opportunities. The project provided insights into consumer behavior and encouraged sustainable food choices.',
+        'This project examines consumer preferences for locally-produced food and their role in food sustainability in Singapore. Using Power BI and Excel, we analyzed data to understand trends, challenges, and opportunities.',
       tagsList: {
         title: 'Technologies',
         tags: [powerbi(), excel()],
       },
-      links: [],
+      links: [writeup({ url: 'https://github.com/Kr1s7on/puolsky-writeups/blob/main/visual-analytics-project.md' })],
     },
     {
       name: "Turto's Project",
@@ -97,6 +97,7 @@ const portfolioSectionData = {
         tags: [html(), css(), javascript(), bootstrap()],
       },
       links: [
+        writeup({ url: 'https://github.com/Kr1s7on/puolsky-writeups/blob/main/kryj-hotel.md' }),
         github({ url: 'https://github.com/Kr1s7on/kryj-hotel' }),
         demo({ url: 'https://kr1s7on.github.io/KRYJ-Hotel/' }),
       ],
@@ -119,7 +120,10 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [python()],
       },
-      links: [github({ url: 'https://github.com/Kr1s7on/Pyventory' })],
+      links: [
+        writeup({ url: 'https://github.com/Kr1s7on/puolsky-writeups/blob/main/pyventory.md' }),
+        github({ url: 'https://github.com/Kr1s7on/Pyventory' }),
+      ],
     },
     {
       name: 'Lion Quest',
