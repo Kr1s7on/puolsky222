@@ -27,50 +27,6 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Pyventory',
-      image: import('@/assets/portfolio/py-logo.png'),
-      dates: [new Date('2024-05'), new Date('2024-07')],
-      details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: 'Programmer' },
-        { label: 'Contributors', value: 'me' },
-        { label: 'Category', value: ['System Utility', 'Terminal'] },
-      ],
-      pdfDetails: [{ label: 'Repository', value: 'https://github.com/Kr1s7on/Pyventory', url: '#' }],
-      screenshots: [{ src: import('@/assets/portfolio/pyventory.png'), alt: 'First screenshot' }],
-      description: 'An inventory management system in Python. And yes the words Python and inventory are combined.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [python()],
-      },
-      links: [github({ url: 'https://github.com/Kr1s7on/Pyventory' })],
-    },
-    {
-      name: 'KRYJ Hotel Website',
-      image: import('@/assets/portfolio/kryj-logo.png'),
-      dates: [new Date('2024-04'), new Date('2024-07')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Contributors', value: 'Joon Yin, Yu En' },
-        { label: 'Category', value: ['Website', 'Prototype'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://kr1s7on.github.io/KRYJ-Hotel/', url: '#' },
-        { label: 'Repository', value: 'https://github.com/Kr1s7on/kryj-hotel', url: '#' },
-      ],
-      description:
-        'A hotel website prototype for a fictional hotel. The website is fully responsive and user-friendly.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [html(), css(), javascript(), bootstrap()],
-      },
-      links: [
-        github({ url: 'https://github.com/Kr1s7on/kryj-hotel' }),
-        demo({ url: 'https://kr1s7on.github.io/KRYJ-Hotel/' }),
-      ],
-    },
-    {
       name: 'Visual Analytics Project',
       image: import('@/assets/portfolio/panalytics2.png'),
       dates: [new Date('2024-12'), new Date('2025-02')],
@@ -88,12 +44,82 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/power4.png'), alt: 'Fourth screenshot' },
       ],
       description:
-        'This project examines consumer preferences for locally-produced food and their role in supporting food sustainability in Singapore. Using data analysis, forecasting, and visualizations, we explore consumer behavior, local food production, and challenges from imported food.',
+        'This project examines consumer preferences for locally-produced food and their role in food sustainability in Singapore. Using Power BI and Excel, we analyzed data to understand trends, challenges, and opportunities. The project provided insights into consumer behavior and encouraged sustainable food choices.',
       tagsList: {
         title: 'Technologies',
         tags: [powerbi(), excel()],
       },
       links: [],
+    },
+    {
+      name: "Turto's Project",
+      image: import('@/assets/portfolio/cc-logo.png'),
+      dates: [new Date('2024-11'), new Date('2025-02')],
+      details: [
+        { label: 'Team size', value: '12 people' },
+        { label: 'My role', value: ['Publicity', 'Logistics'] },
+        { label: 'Beneficiaries', value: 'Cheng San Senior Resident Center' },
+        { label: 'Category', value: ['Service', 'Volunteering'] },
+      ],
+      pdfDetails: [],
+      screenshots: [
+        { src: import('@/assets/portfolio/cc1.png'), alt: 'First screenshot' },
+        { src: import('@/assets/portfolio/cc2.png'), alt: 'Second screenshot' },
+        { src: import('@/assets/portfolio/cc3.png'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/cc4.png'), alt: 'Fourth screenshot' },
+      ],
+      description:
+        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies to roughly 100 elderly.",
+      tagsList: {
+        title: 'Donated Items',
+        tags: [cnycookies()],
+      },
+      links: [],
+    },
+    {
+      name: 'KRYJ Hotel Website',
+      image: import('@/assets/portfolio/kryj-logo.png'),
+      dates: [new Date('2024-04'), new Date('2024-07')],
+      details: [
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
+        { label: 'Contributors', value: 'Joon Yin, Yu En' },
+        { label: 'Category', value: ['Website', 'Prototype'] },
+      ],
+      pdfDetails: [
+        { label: 'Demo', value: 'https://kr1s7on.github.io/KRYJ-Hotel/', url: '#' },
+        { label: 'Repository', value: 'https://github.com/Kr1s7on/kryj-hotel', url: '#' },
+      ],
+      description:
+        'A hotel website prototype designed to be fully responsive and user-friendly. I worked on the front-end using HTML, CSS, JavaScript, and Bootstrap to create a modern layout with easy navigation.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [html(), css(), javascript(), bootstrap()],
+      },
+      links: [
+        github({ url: 'https://github.com/Kr1s7on/kryj-hotel' }),
+        demo({ url: 'https://kr1s7on.github.io/KRYJ-Hotel/' }),
+      ],
+    },
+    {
+      name: 'Pyventory',
+      image: import('@/assets/portfolio/py-logo.png'),
+      dates: [new Date('2024-05'), new Date('2024-07')],
+      details: [
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: 'Programmer' },
+        { label: 'Contributors', value: 'me' },
+        { label: 'Category', value: ['System Utility', 'Terminal'] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/Kr1s7on/Pyventory', url: '#' }],
+      screenshots: [{ src: import('@/assets/portfolio/pyventory.png'), alt: 'First screenshot' }],
+      description:
+        'Pyventory is a simple inventory management system built in Python. It helps users track and manage their stock efficiently through a command-line interface.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [python()],
+      },
+      links: [github({ url: 'https://github.com/Kr1s7on/Pyventory' })],
     },
     {
       name: 'Lion Quest',
@@ -127,31 +153,6 @@ const portfolioSectionData = {
         demo({ url: 'https://scratch.mit.edu/projects/1126734393' }),
         github({ url: 'https://github.com/Kr1s7on/Lion-Quest' }),
       ],
-    },
-    {
-      name: "Turto's Project",
-      image: import('@/assets/portfolio/cc-logo.png'),
-      dates: [new Date('2024-11'), new Date('2025-02')],
-      details: [
-        { label: 'Team size', value: '12 people' },
-        { label: 'My role', value: ['Publicity', 'Logistics'] },
-        { label: 'Beneficiaries', value: 'Cheng San Senior Resident Center' },
-        { label: 'Category', value: ['Service', 'Volunteering'] },
-      ],
-      pdfDetails: [],
-      screenshots: [
-        { src: import('@/assets/portfolio/cc1.png'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/cc2.png'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/cc3.png'), alt: 'Third screenshot' },
-        { src: import('@/assets/portfolio/cc4.png'), alt: 'Fourth screenshot' },
-      ],
-      description:
-        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies to roughly 100 elderly.",
-      tagsList: {
-        title: 'Donated Items',
-        tags: [cnycookies()],
-      },
-      links: [],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
