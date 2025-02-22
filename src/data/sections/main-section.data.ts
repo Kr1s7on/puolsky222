@@ -13,7 +13,7 @@ const mainSectionData = {
   fullName: 'Kriston Jomari',
   role: 'Y1 Applied AI Student',
   details: [
-    { label: 'School', value: 'Nanyang Poytecnic' },
+    { label: 'School', value: 'Nanyang Polytecnic' },
     { label: 'Email', value: 'j.kriston@icloud.com', url: 'mailto:j.kriston@icloud.com' },
     { label: 'From', value: 'Singapore' },
   ],
