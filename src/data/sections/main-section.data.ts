@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/jpn-prof.png'),
   fullName: 'Kriston Jomari',
-  role: 'Y1 Applied AI Student',
+  role: 'Y2 Applied AI Student',
   details: [
     { label: 'School', value: 'Nanyang Polytechnic' },
     { label: 'Email', value: 'j.kriston@icloud.com', url: 'mailto:j.kriston@icloud.com' },
