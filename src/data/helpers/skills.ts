@@ -17,6 +17,12 @@ skill({ name: '...' }) — returns skill object with a custom name.
 skill({ description: '...' }) — returns skill with a description displayed when user hovers over it.
 
 */
+export const scapy = createSkillFactory({
+  name: 'Scapy',
+  icon: 'simple-icons:c',
+  iconColor: '#000000',
+  url: 'https://scapy.readthedocs.io/en/latest/',
+});
 
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
@@ -311,4 +317,18 @@ export const cnycookies = createSkillFactory({
   icon: 'simple-icons:coil',
   iconColor: '#000000',
   url: 'https://en.wikipedia.org/wiki/Chinese_New_Year',
+});
+
+export const r = createSkillFactory({
+  name: 'R',
+  icon: 'simple-icons:r',
+  iconColor: '#276DC3',
+  url: 'https://www.r-project.org/',
+});
+
+export const tableau = createSkillFactory({
+  name: 'Tableau',
+  icon: 'simple-icons:tableau',
+  iconColor: '#E97627',
+  url: 'https://www.tableau.com/',
 });

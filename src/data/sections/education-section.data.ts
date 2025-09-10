@@ -16,7 +16,7 @@ const educationSectionData = {
       image: import('@/assets/logos/nyp-logo.jpeg'),
       dates: [new Date('2024.04'), new Date('2027.05')],
       description:
-        'Currently enrolled in the diploma.\nAccolades:\n- NYP Scholarship (PFP-to-Diploma)\n- Top 6 - NYP InfoSec December CTF 2024 (Ranked 1st for Year 1 Students)\n- Top 10 - NYP InfoSec June CTF 2024\n- Top 10 - DSTA Brainhack: SeeTrue 2024 ',
+        'Currently enrolled in the diploma.\nAccolades:\n- NYP Scholarship (PFP-to-Diploma) \n- Finalist - Dell InnovateFest 2025\n- ..a couple of CTFs',
       links: [
         website({
           url: 'https://www.nyp.edu.sg/student/study/schools/information-technology/diploma-applied-AI-analytics',
@@ -38,7 +38,7 @@ const educationSectionData = {
       image: import('@/assets/logos/pres-logo.jpg'),
       dates: [new Date('2019.01'), new Date('2022.12')],
       description:
-        'Topped the cohort in the N(A) Level Examinations. Raw 5, Nett 3.\nAccolades:\n- Received multiple Book Prize and Edusave awards amounting to $1000+.',
+        'Topped the cohort in the N(A) Level Examinations. Raw 5, Nett 3.\nAccolades:\n- Received multiple Book Prize and Edusave awards amounting to $1000+',
       links: [website({ url: 'https://www.presbyterian.moe.edu.sg/' })],
     },
   ],

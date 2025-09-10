@@ -1,7 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { instagram, linkedin, website } from '../helpers/links';
-import { firebase, dart, jetpackCompose, python, canva, packetTracer, netcat, debate } from '../helpers/skills';
+import { firebase, dart, jetpackCompose, python, canva, packetTracer, netcat, debate, scapy } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -17,9 +17,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/dsc-nyp-logo.jpg'),
       dates: [new Date('2024-10'), null],
       description: `
-        - Currently working on and planning a reconstruct of our socials.
-        - Peer Tutoring (App Development) event in collaboration with another club.
-        - Hosted workshops on Flutter and Jetpack Compose, spanning a total of 100 students.
+        - Hosted workshops engaging over 200 students.
+        - Led and organized sessions on topics like Gemini, Google Maps API, Jetpack Compose, Flutter, and programming fundamentals for students of all experience levels.
       `,
       tagsList: {
         title: 'Technologies',
@@ -31,14 +30,13 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'Publicity EXCO',
+      role: 'Head of Publicity',
       company: 'NYP AI',
       image: import('@/assets/logos/nyp-ai-logo.png'),
       dates: [new Date('2025-01'), null],
       description: `
-        - Socials most of the time.
-        - Led publicity campaigns, including social media posts and email outreach.
-        - Achieved a 48.9% increase in Instagram impressions.
+        - Still doing socials...
+        - Managing a team of five publicity committee members.
 
       `,
       tagsList: {
@@ -53,12 +51,13 @@ const experienceSectionData = {
       image: import('@/assets/logos/dis-logo.jpg'),
       dates: [new Date('2024-05'), null],
       description: `
-        - Python x100
-        - Covers basic cybersecurity concepts.
+        - Projects: Search Engine, Network Forensics, Network Intrusion Detection, Endpoint Detection + Response
+        - Python, python, and more python.
+        - Wireshark + net🐈‍⬛ basics + CTF training
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [python(), packetTracer(), netcat()],
+        tags: [python(), packetTracer(), netcat(), scapy()],
       },
       links: [website({ url: 'https://www.mindef.gov.sg/dis/sentinel' })],
     },
