@@ -53,7 +53,7 @@ const experienceSectionData = {
       description: `
         - Projects: Search Engine, Network Forensics, Network Intrusion Detection, Endpoint Detection + Response
         - Python, python, and more python.
-        - Wireshark + net🐈‍⬛ basics + CTF training
+        - networking stuff + CTF training
       `,
       tagsList: {
         title: 'Technologies',

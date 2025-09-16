@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/bag.jpeg'),
+  image: import('@/assets/shoes.jpeg'),
   fullName: 'Kriston Jomari',
   role: 'Y2 Applied AI Student',
   details: [

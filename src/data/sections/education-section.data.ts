@@ -16,7 +16,7 @@ const educationSectionData = {
       image: import('@/assets/logos/nyp-logo.jpeg'),
       dates: [new Date('2024.04'), new Date('2027.05')],
       description:
-        'Currently enrolled in the diploma.\nAccolades:\n- NYP Scholarship (PFP-to-Diploma) \n- Finalist - Dell InnovateFest 2025\n- ..a couple of CTFs',
+        'Currently enrolled in the diploma.\nAccolades:\n- NYP Scholarship (PFP-to-Diploma) \n- Finalist (Ongoing) - Dell InnovateFest 2025\n- ..a couple of CTFs',
       links: [
         website({
           url: 'https://www.nyp.edu.sg/student/study/schools/information-technology/diploma-applied-AI-analytics',
