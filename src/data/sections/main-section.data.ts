@@ -27,8 +27,8 @@ const mainSectionData = {
   tags: [{ name: 'I 🤍 Tableau' }, { name: 'Linux' }, { name: 'UI/UX' }],
   action: {
     label: 'Download CV',
-    url: '/cv.pdf',
-    downloadedFileName: 'CV Kriston Jomari.pdf',
+    url: '/Kriston Jomari.pdf',
+    downloadedFileName: 'Kriston Jomari.pdf',
   },
   links: [github({ url: 'https://github.com/Kr1s7on' }), linkedin({ url: 'https://linkedin.com/in/kristonj' })],
 } as const satisfies ReadonlyDeep<MainSection>;
