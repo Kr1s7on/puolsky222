@@ -35,9 +35,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/nyp-ai-logo.png'),
       dates: [new Date('2025-01'), null],
       description: `
-        - Still doing socials...
+        - Still doing socials..
         - Managing a team of five publicity committee members.
-
       `,
       tagsList: {
         title: 'Technologies',
@@ -49,7 +48,7 @@ const experienceSectionData = {
       role: 'Sentinel Programme',
       company: 'The Digital and Intelligence Service',
       image: import('@/assets/logos/dis-logo.jpg'),
-      dates: [new Date('2024-05'), null],
+      dates: [new Date('2024-05'), new Date('2025-09')],
       description: `
         - Projects: Search Engine, Network Forensics, Network Intrusion Detection, Endpoint Detection + Response
         - Python, python, and more python.
@@ -65,7 +64,7 @@ const experienceSectionData = {
       role: 'Member',
       company: 'NYP Current Affairs and Debating Club',
       image: import('@/assets/logos/cadc-logo.png'),
-      dates: [new Date('2023-05'), null],
+      dates: [new Date('2023-05'), new Date('2025-04')],
       description: `
       Tournaments:
         - Sishu Griha AP Debate 2023
