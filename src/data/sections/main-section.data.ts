@@ -9,9 +9,9 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/shoes.jpeg'),
+  image: import('@/assets/coffee.jpeg'),
   fullName: 'Kriston Jomari',
-  role: 'Y2 Applied AI Student',
+  role: 'Final-year Applied AI',
   details: [
     { label: 'School', value: 'Nanyang Polytechnic' },
     { label: 'Email', value: 'j.kriston@icloud.com', url: 'mailto:j.kriston@icloud.com' },
@@ -23,8 +23,8 @@ const mainSectionData = {
     { label: 'GitHub', value: '/Kr1s7on', url: 'https://github.com' },
   ],
   description:
-    "I find AI intriguing and I love doing UI/UX work. When I'm not coding, I'm engrossed in mystery novels, usually with a cup of coffee.",
-  tags: [{ name: 'I 🤍 Tableau' }, { name: 'Linux' }, { name: 'UI/UX' }],
+    'I find AI intriguing and I love doing UI/UX work. Besides tech, I play basketball and boulder in my free time.',
+  tags: [{ name: 'Tableau 🤍' }, { name: 'Linux' }, { name: 'UI/UX' }],
   action: {
     label: 'Download CV',
     url: '/Kriston Jomari.pdf',

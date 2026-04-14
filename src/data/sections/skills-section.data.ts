@@ -1,17 +1,6 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import {
-  firebase,
-  python,
-  javascript,
-  sql,
-  linux,
-  webDesign,
-  networking,
-  react,
-  dart,
-  powerbi,
-} from '../helpers/skills';
+import { aws, python, javascript, sql, linux, webDesign, networking, react, dart, powerbi } from '../helpers/skills';
 
 const skillsSectionData = {
   config: {
@@ -44,9 +33,10 @@ const skillsSectionData = {
           level: 2,
           description: 'Knowledgeable in networking fundamentals and security principles.',
         }),
-        firebase({
-          level: 1,
-          description: 'Basic familiarity with Firebase for backend and real-time applications.',
+        aws({
+          level: 2,
+          description:
+            'Familiar with AWS services and cloud computing concepts. Some experience with cloud architecture and deployment.',
         }),
         powerbi({
           level: 3,

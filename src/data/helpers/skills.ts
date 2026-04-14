@@ -332,3 +332,59 @@ export const tableau = createSkillFactory({
   iconColor: '#E97627',
   url: 'https://www.tableau.com/',
 });
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#FF9900',
+  url: 'https://aws.amazon.com/',
+});
+
+export const sonarQube = createSkillFactory({
+  name: 'SonarQube',
+  icon: 'simple-icons:sonarqube',
+  iconColor: '#000000',
+  url: 'https://www.sonarsource.com/products/sonarqube/',
+});
+
+export const claudecode = createSkillFactory({
+  name: 'Claude',
+  icon: 'simple-icons:anthropic',
+  iconColor: '#000000',
+  url: 'https://www.anthropic.com/claude',
+});
+
+export const scripting = createSkillFactory({
+  name: 'Scripting',
+  icon: 'simple-icons:script',
+  iconColor: '#000000',
+  url: 'https://en.wikipedia.org/wiki/Scripting_language',
+});
+
+export const gitlab = createSkillFactory({
+  name: 'GitLab',
+  icon: 'simple-icons:gitlab',
+  iconColor: '#FC6D26',
+  url: 'https://about.gitlab.com/',
+});
+
+export const confluence = createSkillFactory({
+  name: 'Confluence',
+  icon: 'simple-icons:atlassian',
+  iconColor: '#0052CC',
+  url: 'https://www.atlassian.com/software/confluence',
+});
+
+export const jira = createSkillFactory({
+  name: 'Jira',
+  icon: 'simple-icons:atlassian',
+  iconColor: '#0052CC',
+  url: 'https://www.atlassian.com/software/jira',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#000000',
+  url: 'https://www.terraform.io/',
+});
