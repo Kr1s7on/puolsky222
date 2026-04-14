@@ -15,6 +15,7 @@ const mainSectionData = {
   details: [
     { label: 'School', value: 'Nanyang Polytechnic' },
     { label: 'Email', value: 'j.kriston@icloud.com', url: 'mailto:j.kriston@icloud.com' },
+    { label: 'Work', value: 'Monetary Authority of Singapore' },
     { label: 'From', value: 'Singapore' },
   ],
   pdfDetails: [
@@ -24,7 +25,7 @@ const mainSectionData = {
   ],
   description:
     'I find AI intriguing and I love doing UI/UX work. Besides tech, I play basketball and boulder in my free time.',
-  tags: [{ name: 'Tableau 🤍' }, { name: 'Linux' }, { name: 'UI/UX' }],
+  tags: [{ name: 'Cloud 🤍' }, { name: 'Linux 🐧' }, { name: 'UI/UX 🖌️' }],
   action: {
     label: 'Download CV',
     url: '/Kriston Jomari.pdf',
