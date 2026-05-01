@@ -69,7 +69,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/cc4.png'), alt: 'Fourth screenshot' },
       ],
       description:
-        "Turto's Project is a community service project that aims to distribute CNY cookies to the elderly. We collaborated with Cheng San Senior Resident Center who did weekly distributions to the elderly. The project was a success and we managed to distribute $500 worth of cookies to roughly 100 elderly.",
+        "Turto's Project is a community service project that aims to distribute CNY goodies to the elderly. We collaborated with Cheng San Senior Resident Center.",
       tagsList: {
         title: 'Donated Items',
         tags: [cnycookies()],
@@ -90,8 +90,7 @@ const portfolioSectionData = {
         { label: 'Demo', value: 'https://kr1s7on.github.io/KRYJ-Hotel/', url: '#' },
         { label: 'Repository', value: 'https://github.com/Kr1s7on/kryj-hotel', url: '#' },
       ],
-      description:
-        'A hotel website prototype designed to be fully responsive and user-friendly. I worked on the front-end using HTML, CSS, JavaScript, and Bootstrap to create a modern layout with easy navigation.',
+      description: 'A website for a fictional hotel, part of coursework.',
       tagsList: {
         title: 'Technologies',
         tags: [html(), css(), javascript(), bootstrap()],
@@ -100,29 +99,6 @@ const portfolioSectionData = {
         writeup({ url: 'https://github.com/Kr1s7on/puolsky-writeups/blob/main/kryj-hotel.md' }),
         github({ url: 'https://github.com/Kr1s7on/kryj-hotel' }),
         demo({ url: 'https://kr1s7on.github.io/KRYJ-Hotel/' }),
-      ],
-    },
-    {
-      name: 'Pyventory',
-      image: import('@/assets/portfolio/py-logo.png'),
-      dates: [new Date('2024-05'), new Date('2024-07')],
-      details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: 'Programmer' },
-        { label: 'Contributors', value: 'me' },
-        { label: 'Category', value: ['System Utility', 'Terminal'] },
-      ],
-      pdfDetails: [{ label: 'Repository', value: 'https://github.com/Kr1s7on/Pyventory', url: '#' }],
-      screenshots: [{ src: import('@/assets/portfolio/pyventory.png'), alt: 'First screenshot' }],
-      description:
-        'Pyventory is a simple inventory management system built in Python. It helps users track and manage their stock efficiently through a command-line interface.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [python()],
-      },
-      links: [
-        writeup({ url: 'https://github.com/Kr1s7on/puolsky-writeups/blob/main/pyventory.md' }),
-        github({ url: 'https://github.com/Kr1s7on/Pyventory' }),
       ],
     },
     {
@@ -148,7 +124,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/lion6.png'), alt: 'Sixth screenshot' },
       ],
       description:
-        'Lion Quest is a fun, interactive game that turns exploring Singapore into an adventure, starting from Changi Airport and guiding players through landmarks with rewards and challenges.',
+        'Lion Quest is an interactive sidescroller that guides players through different Singaporean landmarks.',
       tagsList: {
         title: 'Technologies',
         tags: [scratch(), pixilart()],
